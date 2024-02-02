@@ -1,0 +1,34 @@
+.meme {
+  position: relative;
+  width: 75%;
+  max-width: 700px;
+  margin: auto;
+}
+.meme-img {
+  width: 100%;
+  border: 2px solid blueviolet;
+}
+.meme span {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  overflow-wrap: break-word;
+}
+.meme-toptext {
+  top: 0;
+}
+.meme-bottomtext {
+  bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+    .meme span {
+      font-size: 15px;
+    }
+}

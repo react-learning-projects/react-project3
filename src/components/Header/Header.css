@@ -1,0 +1,32 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 6%;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-logo {
+    width: 60px;
+}
+.header-nav-col1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 22px;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .header-nav {
+        font-weight: lighter;
+        font-size: 10px;
+    }
+    .header-nav-col1 {
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+}
